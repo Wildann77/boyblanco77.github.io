@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Anime Info Section */
+.anime-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+    gap: 20px;
+}
+
+.anime-poster {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.anime-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.anime-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.anime-details p {
+    margin-bottom: 8px;
+}
+
+.anime-details strong {
+    color: #333;
+}
+
+/* Synopsis Section */
+.synopsis {
+    grid-column: span 2;
+}
+
+.synopsis h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.synopsis p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Additional Info Section */
+.additional-info {
+    grid-column: span 2;
+}
+
+.additional-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    border-bottom: 2
+}
